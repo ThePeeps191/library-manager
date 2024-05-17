@@ -1,2 +1,4 @@
+from flask import render_template, url_for
+
 def homepage():
-	return "hello there"
+	return render_template("index.html")
